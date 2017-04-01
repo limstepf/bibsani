@@ -12,7 +12,7 @@ import java.io.OutputStreamWriter;
 import java.io.UnsupportedEncodingException;
 
 /**
- * PDF database Scrap(er).
+ * Bib(TeX) Sani(tizer).
  */
 public class Main {
 
@@ -26,7 +26,7 @@ public class Main {
 		// parse command line arguments
 		final CommandLineArguments cla = new CommandLineArguments(Main.class, args);
 		final CommandLineArguments.Argument fileArg = cla.add(
-				"A bibtex (BIB) file to process.",
+				"The BibTeX file to process.",
 				"<file>",
 				"f", "file"
 		);
