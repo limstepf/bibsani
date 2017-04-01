@@ -70,6 +70,7 @@ public class Main {
 				getOutputFilename(inputFile)
 		);
 		System.out.println("output file: " + outputFile);
+		System.out.print("\n");
 
 		final LineSanitizer sanitizer = LineSanitizer.REMOVE_ACCENTS_THEN_INVALID_CHARS_IN_KEYS;
 		int numLine = 0;
@@ -84,7 +85,7 @@ public class Main {
 					if (!line.equals(sanitizedLine)) {
 						numSanitizedLines++;
 						System.out.println(String.format(
-								"line %7d: %s",
+								"line %8d: %s",
 								numLine, line
 						));
 						System.out.println(String.format(
