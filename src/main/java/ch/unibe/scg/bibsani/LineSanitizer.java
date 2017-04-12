@@ -57,7 +57,7 @@ public enum LineSanitizer {
 				}
 			};
 
-	private static final String WHITELIST_CHARS_PATTERN = "[^\\sa-zA-Z0-9.,:;\\?!`'\\(\\)\\{\\}\\[\\]/@_\\+=-]";
+	private static final String WHITELIST_CHARS_PATTERN = "[^\\sa-zA-Z0-9.,:\\?!`'\\(\\)\\{\\}\\[\\]/@_\\+=-]";
 	private static final String ACCENT_PATTERN = "\\p{InCombiningDiacriticalMarks}+";
 	private static final Pattern ENTRY_START_LINE_PATTERN = Pattern.compile(
 			"^\\s*@([a-zA-Z]+)\\{"

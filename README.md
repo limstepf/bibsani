@@ -1,6 +1,6 @@
 # Bib(TeX) Sani(tizer)
 
-`bibsani` is a command line tool to specifically sanitize BibTeX files served by [ScienceDirect](http://www.sciencedirect.com/), since they tend to crash the [JBibTeX](https://github.com/jbibtex/jbibtex) parser. 
+`bibsani` is a command line tool to specifically sanitize BibTeX files served by [ScienceDirect](http://www.sciencedirect.com/) (and ocassionally [ACM Digital Library](http://dl.acm.org/)), since they tend to crash the [JBibTeX](https://github.com/jbibtex/jbibtex) parser. 
 
 For the curious, line 328 in `bibtex.jj`:
 
